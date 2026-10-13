@@ -1,0 +1,438 @@
+{
+  "schemaVersion": 1,
+  "package": "@foss-earth/dev-installer",
+  "version": "0.1.0",
+  "revision": "ff46c57de0789417c9794a44a0710bedb6bae9cf",
+  "sourceTree": "afb129855b206d4e2e2bebd9efe3cecc8d515315",
+  "artifactSha256": "c6cab4bcb123582fcfc8a9ecb418deeb508842a78398a10f15f92680034066ba",
+  "sizeBytes": 114602,
+  "packageIdentity": {
+    "name": "@foss-earth/dev-installer",
+    "version": "0.1.0",
+    "type": "module",
+    "private": true,
+    "license": "AGPL-3.0-only",
+    "engines": {
+      "node": ">=22"
+    },
+    "bin": {
+      "foss-earth-workspace": "bin/workspace.mjs",
+      "foss-earth-setup": "bin/earth.mjs"
+    },
+    "exports": {
+      ".": "./src/cli.mjs",
+      "./manifest": "./src/manifest.mjs",
+      "./workspace": "./src/workspace.mjs",
+      "./bootstrap": "./src/bootstrap.mjs",
+      "./archive": "./src/archive.mjs",
+      "./packages": "./src/packages.mjs",
+      "./schema": "./schemas/workspace-v1.schema.json"
+    }
+  },
+  "publicEntries": [
+    {
+      "kind": "bin",
+      "name": "foss-earth-workspace",
+      "target": "bin/workspace.mjs",
+      "path": "bin/workspace.mjs",
+      "sha256": "cc4aeaaf2f8c479668c03a451f585ef407943885e523da88379b22bb66e5388d"
+    },
+    {
+      "kind": "bin",
+      "name": "foss-earth-setup",
+      "target": "bin/earth.mjs",
+      "path": "bin/earth.mjs",
+      "sha256": "c893e0b3bdb09d9646642ba0de4c4ddfaf967510d8403aeaab021cb18b240cd4"
+    },
+    {
+      "kind": "export",
+      "name": ".",
+      "target": "./src/cli.mjs",
+      "path": "src/cli.mjs",
+      "sha256": "1f3b7198c83e5eb027d123fef7293e3622593db2569ad218ed3f4c1fd415846e"
+    },
+    {
+      "kind": "export",
+      "name": "./manifest",
+      "target": "./src/manifest.mjs",
+      "path": "src/manifest.mjs",
+      "sha256": "afded6324ebc930e5154db597a0181763b55fc6449cf3f18a2e76ea5a8925b80"
+    },
+    {
+      "kind": "export",
+      "name": "./workspace",
+      "target": "./src/workspace.mjs",
+      "path": "src/workspace.mjs",
+      "sha256": "89d7756c7bc1a9e04304880e9a9fc92e364e07762af7cb702392ee27be2ccaf1"
+    },
+    {
+      "kind": "export",
+      "name": "./bootstrap",
+      "target": "./src/bootstrap.mjs",
+      "path": "src/bootstrap.mjs",
+      "sha256": "6905a9b50316256cafba31932b109723923005bb2b09a45a1629f6fc8d9d7211"
+    },
+    {
+      "kind": "export",
+      "name": "./archive",
+      "target": "./src/archive.mjs",
+      "path": "src/archive.mjs",
+      "sha256": "5413263e6fe5e50938649270e06866af85d60c2778eeadd782a154a483fc1f9e"
+    },
+    {
+      "kind": "export",
+      "name": "./packages",
+      "target": "./src/packages.mjs",
+      "path": "src/packages.mjs",
+      "sha256": "90d6424917f151382996b11484dc6988e5d05dadb5653e2a38388142bf956900"
+    },
+    {
+      "kind": "export",
+      "name": "./schema",
+      "target": "./schemas/workspace-v1.schema.json",
+      "path": "schemas/workspace-v1.schema.json",
+      "sha256": "ee4eba7b865f544075ca3ee7ac9838e24be6f8aff81ee6be20e03f49e285c08f"
+    }
+  ],
+  "files": {
+    "bin/earth.mjs": "c893e0b3bdb09d9646642ba0de4c4ddfaf967510d8403aeaab021cb18b240cd4",
+    "bin/workspace.mjs": "cc4aeaaf2f8c479668c03a451f585ef407943885e523da88379b22bb66e5388d",
+    "package.json": "98214c0cdb5bcd96527df377b6c471053459e18e40d2fc2ca88560a7961ecb0d",
+    "schemas/bootstrap-v1.schema.json": "4470765921f53dd5085bed45a059287259e706231a43b27f8310e90dc6937664",
+    "schemas/workspace-v1.schema.json": "ee4eba7b865f544075ca3ee7ac9838e24be6f8aff81ee6be20e03f49e285c08f",
+    "src/archive.mjs": "5413263e6fe5e50938649270e06866af85d60c2778eeadd782a154a483fc1f9e",
+    "src/bootstrap.mjs": "6905a9b50316256cafba31932b109723923005bb2b09a45a1629f6fc8d9d7211",
+    "src/cli.mjs": "1f3b7198c83e5eb027d123fef7293e3622593db2569ad218ed3f4c1fd415846e",
+    "src/manifest.mjs": "afded6324ebc930e5154db597a0181763b55fc6449cf3f18a2e76ea5a8925b80",
+    "src/packages.mjs": "90d6424917f151382996b11484dc6988e5d05dadb5653e2a38388142bf956900",
+    "src/paths.mjs": "6843a1e41bcf9036c20a84a8412898b6357eb6a791c3cf5253f26bc547317385",
+    "src/process.mjs": "22516c68b5613cd5770bf68c26e9d7d50fa01fcc8a6b139911b30f6993ead46f",
+    "src/workspace.mjs": "89d7756c7bc1a9e04304880e9a9fc92e364e07762af7cb702392ee27be2ccaf1"
+  },
+  "runtimeFiles": [
+    "bin/earth.mjs",
+    "bin/workspace.mjs",
+    "package.json",
+    "schemas/bootstrap-v1.schema.json",
+    "schemas/workspace-v1.schema.json",
+    "src/archive.mjs",
+    "src/bootstrap.mjs",
+    "src/cli.mjs",
+    "src/manifest.mjs",
+    "src/packages.mjs",
+    "src/paths.mjs",
+    "src/process.mjs",
+    "src/workspace.mjs"
+  ],
+  "source": {
+    "inventorySha256": "2f02f5f4a6c6b3bc826f6aec748415107b096dde28eef53ee797e2880ed86fba",
+    "sizeBytes": 255159,
+    "files": [
+      {
+        "path": ".attribution-release.json",
+        "mode": "100644",
+        "object": "496158d8c58bd2c8701d7251700d31a951e04b7d",
+        "sha256": "c5324ea9476d99afbc5f63e9d5a15d597dd7ee27546499c392046b55fc361131",
+        "sizeBytes": 2045
+      },
+      {
+        "path": ".attribution.json",
+        "mode": "100644",
+        "object": "3866bd435ea200c3d10edc0bc6a146dc1719100d",
+        "sha256": "e4493f3031a5051398339cf9649a8e18efb8ece96f512761d8d145daf8347f7a",
+        "sizeBytes": 491
+      },
+      {
+        "path": ".github/workflows/attribution-check.yml",
+        "mode": "100644",
+        "object": "bdbc5b1dfa3cab91ed9ecc8ec547c0568a07fe46",
+        "sha256": "63349507da9d004752bb0e43c681089dfd9fd6c26bf8047738cb19025f15135e",
+        "sizeBytes": 406
+      },
+      {
+        "path": ".gitignore",
+        "mode": "100644",
+        "object": "fdfae57e44534dbc528b8f6a72b090cd86287166",
+        "sha256": "3b869f4fe7476e915b583968adfbc368d461b65da74ed99fb1f24f03d0d1792c",
+        "sizeBytes": 29
+      },
+      {
+        "path": "AGENTS.md",
+        "mode": "100644",
+        "object": "09a8dad2d27a6c7c35b7409596b25c9e52b6c68f",
+        "sha256": "efafe54812147165c9cb1f4d2cdea89ab2efd254f89e33d8a568990bfb48e6b8",
+        "sizeBytes": 719
+      },
+      {
+        "path": "CONTRIBUTING.md",
+        "mode": "100644",
+        "object": "47f183a90d250feb5bc032b552a9b378ada3d580",
+        "sha256": "de6cd5ccf390d7c5fd93f58846d69af282abe183bfdb0f23a8197695d5cfe1d8",
+        "sizeBytes": 807
+      },
+      {
+        "path": "LICENSE",
+        "mode": "100644",
+        "object": "be3f7b28e564e7dd05eaf59d64adba1a4065ac0e",
+        "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+        "sizeBytes": 34523
+      },
+      {
+        "path": "PROVENANCE.json",
+        "mode": "100644",
+        "object": "af97919e1776fec43674f7560c7a372d86cb0f67",
+        "sha256": "f37b1362d8c379253682f772aa62bc816f6851d40ab2c503407312d70d57d334",
+        "sizeBytes": 1163
+      },
+      {
+        "path": "README.md",
+        "mode": "100644",
+        "object": "0a6a67c54c358283678254d34bfdf345b4c68769",
+        "sha256": "065b8823419d691c26c94d44f7b042de9dbbbac1f8725f8f4304c1a04f8eb265",
+        "sizeBytes": 3412
+      },
+      {
+        "path": "bin/earth.mjs",
+        "mode": "100644",
+        "object": "c4edf4f422d5fa1c16979836ec72aaf660f52557",
+        "sha256": "c893e0b3bdb09d9646642ba0de4c4ddfaf967510d8403aeaab021cb18b240cd4",
+        "sizeBytes": 549
+      },
+      {
+        "path": "bin/workspace.mjs",
+        "mode": "100644",
+        "object": "5ee28f7df20d58e280ddb566c6c823d4b16e9c25",
+        "sha256": "cc4aeaaf2f8c479668c03a451f585ef407943885e523da88379b22bb66e5388d",
+        "sizeBytes": 128
+      },
+      {
+        "path": "deps/foss-earth-ci-0.1.0-9e046dd.tgz",
+        "mode": "100644",
+        "object": "c33a19f59189c0d291a945611f0ea607bd94624f",
+        "sha256": "450ede699f55f9b9c78146eadb73de7c6297e56553e7d7f9e5b164786a7beb24",
+        "sizeBytes": 55587
+      },
+      {
+        "path": "docs/acceptance.md",
+        "mode": "100644",
+        "object": "3ed37f8781edeaa8223bb20db126c8b5987d975f",
+        "sha256": "45a01240e1bd33afe4f722f46fabcf88588b864e05c385ba927b790d6e271614",
+        "sizeBytes": 2154
+      },
+      {
+        "path": "docs/contracts.md",
+        "mode": "100644",
+        "object": "bf5331c971c3ffb84ca31e190e2044e8c9ab5d04",
+        "sha256": "822779b7949120b1b78324d37c3643d3ac918243e6de94727342b9d3d3dc1dcb",
+        "sizeBytes": 10633
+      },
+      {
+        "path": "docs/operations.md",
+        "mode": "100644",
+        "object": "d39f6efbfd0884e0740fbbf60fdc6f0c7b4a5182",
+        "sha256": "78a958be156e54a131346202e04fb185872d85828d1528a7f9ec9e9187edcdc9",
+        "sizeBytes": 2528
+      },
+      {
+        "path": "package-lock.json",
+        "mode": "100644",
+        "object": "98f24f84b79ce218edb79f061d51db037e3a2f67",
+        "sha256": "3a267fb5831b088a7d5dee0cdfb662ca0652465bc6971909879f2eb4cf9b660f",
+        "sizeBytes": 1129
+      },
+      {
+        "path": "package.json",
+        "mode": "100644",
+        "object": "4a59f5dfd1ac6d529b0d3fbd711e13f638ec284f",
+        "sha256": "98214c0cdb5bcd96527df377b6c471053459e18e40d2fc2ca88560a7961ecb0d",
+        "sizeBytes": 1178
+      },
+      {
+        "path": "schemas/bootstrap-v1.schema.json",
+        "mode": "100644",
+        "object": "e0fcca40800aa0f35b9c1d614602b9ada96a5bc4",
+        "sha256": "4470765921f53dd5085bed45a059287259e706231a43b27f8310e90dc6937664",
+        "sizeBytes": 698
+      },
+      {
+        "path": "schemas/workspace-v1.schema.json",
+        "mode": "100644",
+        "object": "5e7a66e10034ad77e5328ab5adab8cd4715f8080",
+        "sha256": "ee4eba7b865f544075ca3ee7ac9838e24be6f8aff81ee6be20e03f49e285c08f",
+        "sizeBytes": 6239
+      },
+      {
+        "path": "scripts/check.mjs",
+        "mode": "100644",
+        "object": "19ebb73632dbc87320e75988eabf701c3f2658af",
+        "sha256": "109dc0012547be731cab2e5bb3aabba2d0012a4ed2cf8b6350e4955bcd83c237",
+        "sizeBytes": 815
+      },
+      {
+        "path": "scripts/installed-consumer.mjs",
+        "mode": "100644",
+        "object": "0695a1eed7c71049e62d3594970bd25d92d15dfb",
+        "sha256": "de574f9cb15d9d3db6c77b3e896578bd4635f7491e948feddd20829df1127591",
+        "sizeBytes": 11455
+      },
+      {
+        "path": "scripts/package.mjs",
+        "mode": "100644",
+        "object": "0d438fe611b3f50a40ad6a2533385a6240193526",
+        "sha256": "4218f60c60ebcd1ed54c78920b9cc86e02c6404299c096753bc2cf4d60e05cbc",
+        "sizeBytes": 6292
+      },
+      {
+        "path": "scripts/precommit.mjs",
+        "mode": "100644",
+        "object": "6d5b25dae390b5c679ea8d6dac19ee023980a556",
+        "sha256": "24656e591918a5c1a703237ce6f72b96a62f8659479cf346721d2a330fe5ea32",
+        "sizeBytes": 2039
+      },
+      {
+        "path": "src/archive.mjs",
+        "mode": "100644",
+        "object": "69d20577141ad25770dd65b64ca2f5b366e2c202",
+        "sha256": "5413263e6fe5e50938649270e06866af85d60c2778eeadd782a154a483fc1f9e",
+        "sizeBytes": 12051
+      },
+      {
+        "path": "src/bootstrap.mjs",
+        "mode": "100644",
+        "object": "2d0f14d3ed9d9456e4c03a1f6af92730d6d37616",
+        "sha256": "6905a9b50316256cafba31932b109723923005bb2b09a45a1629f6fc8d9d7211",
+        "sizeBytes": 6001
+      },
+      {
+        "path": "src/cli.mjs",
+        "mode": "100644",
+        "object": "1fc471883ffd37dd51f0bf53a3a94fa48f63c963",
+        "sha256": "1f3b7198c83e5eb027d123fef7293e3622593db2569ad218ed3f4c1fd415846e",
+        "sizeBytes": 4163
+      },
+      {
+        "path": "src/manifest.mjs",
+        "mode": "100644",
+        "object": "719c486919e1be12aa5783ce75f0030903659b4d",
+        "sha256": "afded6324ebc930e5154db597a0181763b55fc6449cf3f18a2e76ea5a8925b80",
+        "sizeBytes": 11199
+      },
+      {
+        "path": "src/packages.mjs",
+        "mode": "100644",
+        "object": "ae90a12cb170c4a3e11bcd6a0e07087486609b8b",
+        "sha256": "90d6424917f151382996b11484dc6988e5d05dadb5653e2a38388142bf956900",
+        "sizeBytes": 2217
+      },
+      {
+        "path": "src/paths.mjs",
+        "mode": "100644",
+        "object": "15a27180f20c7a087f661b6f6600efd12591f95a",
+        "sha256": "6843a1e41bcf9036c20a84a8412898b6357eb6a791c3cf5253f26bc547317385",
+        "sizeBytes": 1502
+      },
+      {
+        "path": "src/process.mjs",
+        "mode": "100644",
+        "object": "029d7b97109e965e82cd1202d10e8e4e51831b2b",
+        "sha256": "22516c68b5613cd5770bf68c26e9d7d50fa01fcc8a6b139911b30f6993ead46f",
+        "sizeBytes": 1379
+      },
+      {
+        "path": "src/workspace.mjs",
+        "mode": "100644",
+        "object": "1538d5f93e927e3a704398dc11a21cfdd8098c9a",
+        "sha256": "89d7756c7bc1a9e04304880e9a9fc92e364e07762af7cb702392ee27be2ccaf1",
+        "sizeBytes": 24958
+      },
+      {
+        "path": "tests/archive.test.mjs",
+        "mode": "100644",
+        "object": "6d6c3fd8dcf7d1be3b84376a024a7ba7c2476649",
+        "sha256": "4e26bdd66c835e9d9ad2e5e78c3f9236bbc821675cfbf782f6572c90668ae6bd",
+        "sizeBytes": 11599
+      },
+      {
+        "path": "tests/earth-dirty.test.mjs",
+        "mode": "100644",
+        "object": "ccf0d96140bb436a8ba0777a6417a925667d35a5",
+        "sha256": "5b3d4aac05434b1609be797de3a74f54f2929a6f128346f868f101a775b6239c",
+        "sizeBytes": 4960
+      },
+      {
+        "path": "tests/fixtures/earth-dirty-requirements.json",
+        "mode": "100644",
+        "object": "b2db49a87cd0489ba9bb414785ec4facb2d1b912",
+        "sha256": "d8044005dc36504dbced6201e8b7de2ca53b11db8c1106ceeac87f2ce7d83f3e",
+        "sizeBytes": 4602
+      },
+      {
+        "path": "tests/packages.test.mjs",
+        "mode": "100644",
+        "object": "6c8cb54a6b62b466738cdc72add6f9f7d7705d44",
+        "sha256": "7b1b64715ccaf8b8d7b90c41ab9cf5b8ac4cc5b808d81c5a9a32039eed2d61a2",
+        "sizeBytes": 6055
+      },
+      {
+        "path": "tests/workspace.test.mjs",
+        "mode": "100644",
+        "object": "4fc2b29785e051b1809ce87e7774e7b79fa411af",
+        "sha256": "0447a9230688c03365c57dd702081c5ac9525e466f9917e1fb2c151034b3a85c",
+        "sizeBytes": 19454
+      }
+    ]
+  },
+  "archive": {
+    "format": "tar.gz",
+    "prefix": "package/",
+    "tarSha256": "03050b9c1568673ce3a0b6673856a83ebad01c99045927feb57ad62a91d05c91",
+    "tarSizeBytes": 296960,
+    "files": {
+      ".attribution-release.json": "c5324ea9476d99afbc5f63e9d5a15d597dd7ee27546499c392046b55fc361131",
+      ".attribution.json": "e4493f3031a5051398339cf9649a8e18efb8ece96f512761d8d145daf8347f7a",
+      ".github/workflows/attribution-check.yml": "63349507da9d004752bb0e43c681089dfd9fd6c26bf8047738cb19025f15135e",
+      ".gitignore": "3b869f4fe7476e915b583968adfbc368d461b65da74ed99fb1f24f03d0d1792c",
+      "AGENTS.md": "efafe54812147165c9cb1f4d2cdea89ab2efd254f89e33d8a568990bfb48e6b8",
+      "CONTRIBUTING.md": "de6cd5ccf390d7c5fd93f58846d69af282abe183bfdb0f23a8197695d5cfe1d8",
+      "LICENSE": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+      "PROVENANCE.json": "f37b1362d8c379253682f772aa62bc816f6851d40ab2c503407312d70d57d334",
+      "README.md": "065b8823419d691c26c94d44f7b042de9dbbbac1f8725f8f4304c1a04f8eb265",
+      "bin/earth.mjs": "c893e0b3bdb09d9646642ba0de4c4ddfaf967510d8403aeaab021cb18b240cd4",
+      "bin/workspace.mjs": "cc4aeaaf2f8c479668c03a451f585ef407943885e523da88379b22bb66e5388d",
+      "deps/foss-earth-ci-0.1.0-9e046dd.tgz": "450ede699f55f9b9c78146eadb73de7c6297e56553e7d7f9e5b164786a7beb24",
+      "docs/acceptance.md": "45a01240e1bd33afe4f722f46fabcf88588b864e05c385ba927b790d6e271614",
+      "docs/contracts.md": "822779b7949120b1b78324d37c3643d3ac918243e6de94727342b9d3d3dc1dcb",
+      "docs/operations.md": "78a958be156e54a131346202e04fb185872d85828d1528a7f9ec9e9187edcdc9",
+      "package-lock.json": "3a267fb5831b088a7d5dee0cdfb662ca0652465bc6971909879f2eb4cf9b660f",
+      "package.json": "98214c0cdb5bcd96527df377b6c471053459e18e40d2fc2ca88560a7961ecb0d",
+      "schemas/bootstrap-v1.schema.json": "4470765921f53dd5085bed45a059287259e706231a43b27f8310e90dc6937664",
+      "schemas/workspace-v1.schema.json": "ee4eba7b865f544075ca3ee7ac9838e24be6f8aff81ee6be20e03f49e285c08f",
+      "scripts/check.mjs": "109dc0012547be731cab2e5bb3aabba2d0012a4ed2cf8b6350e4955bcd83c237",
+      "scripts/installed-consumer.mjs": "de574f9cb15d9d3db6c77b3e896578bd4635f7491e948feddd20829df1127591",
+      "scripts/package.mjs": "4218f60c60ebcd1ed54c78920b9cc86e02c6404299c096753bc2cf4d60e05cbc",
+      "scripts/precommit.mjs": "24656e591918a5c1a703237ce6f72b96a62f8659479cf346721d2a330fe5ea32",
+      "src/archive.mjs": "5413263e6fe5e50938649270e06866af85d60c2778eeadd782a154a483fc1f9e",
+      "src/bootstrap.mjs": "6905a9b50316256cafba31932b109723923005bb2b09a45a1629f6fc8d9d7211",
+      "src/cli.mjs": "1f3b7198c83e5eb027d123fef7293e3622593db2569ad218ed3f4c1fd415846e",
+      "src/manifest.mjs": "afded6324ebc930e5154db597a0181763b55fc6449cf3f18a2e76ea5a8925b80",
+      "src/packages.mjs": "90d6424917f151382996b11484dc6988e5d05dadb5653e2a38388142bf956900",
+      "src/paths.mjs": "6843a1e41bcf9036c20a84a8412898b6357eb6a791c3cf5253f26bc547317385",
+      "src/process.mjs": "22516c68b5613cd5770bf68c26e9d7d50fa01fcc8a6b139911b30f6993ead46f",
+      "src/workspace.mjs": "89d7756c7bc1a9e04304880e9a9fc92e364e07762af7cb702392ee27be2ccaf1",
+      "tests/archive.test.mjs": "4e26bdd66c835e9d9ad2e5e78c3f9236bbc821675cfbf782f6572c90668ae6bd",
+      "tests/earth-dirty.test.mjs": "5b3d4aac05434b1609be797de3a74f54f2929a6f128346f868f101a775b6239c",
+      "tests/fixtures/earth-dirty-requirements.json": "d8044005dc36504dbced6201e8b7de2ca53b11db8c1106ceeac87f2ce7d83f3e",
+      "tests/packages.test.mjs": "7b1b64715ccaf8b8d7b90c41ab9cf5b8ac4cc5b808d81c5a9a32039eed2d61a2",
+      "tests/workspace.test.mjs": "0447a9230688c03365c57dd702081c5ac9525e466f9917e1fb2c151034b3a85c"
+    },
+    "treeSha256": "10da83c0cbf7cf1c7be8eba7ad79266f8077b41d6c112307a738be5c31bb09ab",
+    "verificationBounds": {
+      "maxEntries": 48,
+      "maxExpandedBytes": 256183,
+      "maxTarBytes": 296960,
+      "maxMetadataBytes": 1024
+    },
+    "verified": true
+  },
+  "earthDefaultBootstrap": null
+}
